@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+/* styling for the navbar */
+.nav-bar1 {
+  width: 100vw;
+  background-color: rgb(12, 7, 114);
+  /* if html puts a space at the top of the element you can add padding it takes away */
+  padding: 5px;
+  margin-right: 40px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar-items {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  list-style: none;
+}
+.nav-bar-text {
+  margin-left: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  color: aliceblue;
+}
+/* hover example below */
+.nav-bar-text:hover {
+  color: gold;
 }
 
-.App-link {
-  color: #61dafb;
+/* styling for the username and password form  */
+.form-container {
+  text-align: center;
+  margin-top: 20em;
+  background-color: antiquewhite;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: ridge;
+  border-radius: 5px;
+  border-width: 1em;
+  border-color: blueviolet;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* styling buttons in form */
+.button-login {
+  background-color: rgb(20, 151, 211);
+  margin: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button-forgot-password {
+  background-color: rgb(20, 151, 211);
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+/* hover effects i learned from the lab */
+.button-login:hover {
+  color: gold;
+}
+.button-forgot-password:hover {
+  color: gold;
+}
+/* styling text boxes for spacing */
+.text-boxes {
+  margin: 5px;
 }
